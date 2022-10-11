@@ -7,8 +7,8 @@ import AppLoading from 'expo-app-loading';
 import { useFonts } from 'expo-font';
 
 
-import { SignIn } from './src/screens/SignIn';
 import { Background } from './src/components/Background';
+import { Routes } from './src/routes';
 
 
 
@@ -32,7 +32,7 @@ export default function App() {
         translucent
       />
 
-      <SignIn />
+      <Routes />
     </Background>
   );
 
